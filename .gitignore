@@ -3,6 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=r
 
 *.json
+config.yml
 
 ### R ###
 # History files

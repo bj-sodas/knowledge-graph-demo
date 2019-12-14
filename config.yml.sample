@@ -1,0 +1,13 @@
+default:
+    url: https://www.zhihu.com/org/guang-yuan-zi-ben/activities
+    
+selenium:
+    serverAddr: localhost
+    port: 4445
+    browsername: firefox
+
+api:
+    url: https://www.zhihu.com/api/v4
+    topic: members/guang-yuan-zi-ben
+    session_id: "1188951766488748032"
+    length: 2
