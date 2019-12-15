@@ -51,7 +51,7 @@ map(1:conf$length, fetch_contents)
 
 
 # to GCP NLP API
-entities_raw <- map(cntts, ~ gl_nlp(.x, nlp_type = "analyzeEntities", language = "zh"))
+entities_raw <- map(cntts, ~ gl_nlp(.x, nlp_type = "analyzeEntities", language = conf$language))
 
 # tidy result from api
 entities <-
@@ -90,7 +90,7 @@ entities <-
 )
 
 # final result
-visNetwork(nodes, links, width = "100%", height = "860px") %>% 
+visNetwork(nodes, links, width = conf$width, height = conf$height) %>% 
     visOptions(highlightNearest = TRUE) %>% 
     visHierarchicalLayout(direction = "UD", levelSeparation = 200)
 
