@@ -17,6 +17,10 @@ The general idea is as follows,
 
 We use data extracted from [Zhihu.com](https://www.zhihu.com/) (知乎), a platfrom of information sharing and article publishing in China.
 
+## Configuration
+
+Configuration (`config.yml`) is imported through package [config](https://cran.r-project.org/web/packages/config/index.html). Sample file is provided. 
+
 ## Example
 
 Knowledge graph of **Lighthouse Capital (光源资本)**
