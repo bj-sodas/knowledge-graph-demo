@@ -1,8 +1,12 @@
+![banner](banner.png)
+
 # Knowledge Graph Demo
 
 ## Definition
 
 There is no clear definition for the term `knowledge graph`. It is made well-known by Google with its initiative by the same name in 2012. Very often, people use the term to represent [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) in general. In some contexts, the term is used to refer to **any knowledge base that is represented as a graph**.
+
+[This post](https://medium.com/@sderymail/challenges-of-knowledge-graph-part-1-d9ffe9e35214) gives a good introduction.
 
 ## About This Repository
 
@@ -15,16 +19,18 @@ The general idea is as follows,
 3. Do entities analysis
 4. Plot network graph
 
-We use data extracted from [Zhihu.com](https://www.zhihu.com/) (知乎), a platfrom of information sharing and article publishing in China.
-
 ## Configuration
 
-Configuration (`config.yml`) is imported through package [config](https://cran.r-project.org/web/packages/config/index.html). Sample file is provided. 
+Configuration (`config.yml`) is imported through package [config](https://cran.r-project.org/web/packages/config/index.html). Sample file is provided.
 
 ## Example
 
-Knowledge graph of **Lighthouse Capital (光源资本)**
+We use data extracted from [Zhihu.com](https://www.zhihu.com/) (知乎), a platfrom of information sharing and article publishing in China. The following shows query of - **Lighthouse Capital (光源资本)**
 
 ![Overview](graph_overall.png)
 
 ![Zoom In](graph_zoomin.png)
+
+## Credits
+
+Image via https://medium.com/@sderymail/challenges-of-knowledge-graph-part-1-d9ffe9e35214
