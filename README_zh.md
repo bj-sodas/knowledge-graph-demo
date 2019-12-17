@@ -32,7 +32,7 @@
 
 ## 例子
 
-我们使用从 [知乎](https://www.zhihu.com/) 提取的数据，知乎是一个中国的信息分享和文章发布平台。下面的展示的是搜索 **光源资本 (Lighthouse Capital)** 的结果
+我们使用从 [知乎](https://www.zhihu.com/) 提取的数据，知乎是一个中国的信息分享和文章发布平台。下面展示的是搜索 **光源资本 (Lighthouse Capital)** 的结果
 
 ![Overview](graph_overall.png)
 
