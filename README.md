@@ -1,12 +1,14 @@
 ![banner](banner.png)
 
+Language: **[ENG](README.md) 🇬🇧 | [中文](README_zh.md)** 🇨🇳
+
 # Knowledge Graph Demo
 
 ## Definition
 
 There is no clear definition for the term `knowledge graph`. It is made well-known by Google with its initiative by the same name in 2012. Very often, people use the term to represent [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) in general. In some contexts, the term is used to refer to **any knowledge base that is represented as a graph**.
 
-[This post](https://medium.com/@sderymail/challenges-of-knowledge-graph-part-1-d9ffe9e35214) gives a good introduction.
+[This post](https://medium.com/@sderymail/challenges-of-knowledge-graph-part-1-d9ffe9e35214) gives a pretty good introduction.
 
 ## About This Repository
 
